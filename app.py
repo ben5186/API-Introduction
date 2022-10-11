@@ -1,7 +1,7 @@
 # Ben Siri 10-10-22
 # Learn flask
 
-from flask import Flask
+from flask import Flask, render_template, url_for
 
 app = Flask(__name__)
 
